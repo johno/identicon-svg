@@ -1,0 +1,30 @@
+{
+  "name": "identicon-svg",
+  "description": "Generate svg identicons",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+  },
+  "scripts": {
+    "build": "node build",
+    "jsx": "jsx -x jsx src .",
+    "watch:jsx": "jsx -w -x jswx src ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/identicon-svg.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/identicon-svg/issues"
+  },
+  "homepage": "https://github.com/johnotander/identicon-svg",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3"
+  }
+}
