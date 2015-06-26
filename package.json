@@ -4,8 +4,7 @@
   "author": "John Otander",
   "version": "0.0.1",
   "main": "index.js",
-  "directories": {
-  },
+  "directories": {},
   "scripts": {
     "build": "node build",
     "jsx": "jsx -x jsx src .",
@@ -21,7 +20,9 @@
     "url": "https://github.com/johnotander/identicon-svg/issues"
   },
   "homepage": "https://github.com/johnotander/identicon-svg",
-  "dependencies": {},
+  "dependencies": {
+    "random-hex-color": "^1.0.0"
+  },
   "devDependencies": {
     "mocha": "*",
     "react": "^0.13.3",
