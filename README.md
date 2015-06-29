@@ -1,8 +1,14 @@
-# identicon-svg
-
-[![Build Status](https://secure.travis-ci.org/johnotander/identicon-svg.png?branch=master)](https://travis-ci.org/johnotander/identicon-svg)
+# identicon-svg [![Build Status](https://secure.travis-ci.org/johnotander/identicon-svg.png?branch=master)](https://travis-ci.org/johnotander/identicon-svg)
 
 Generate svg identicons
+
+## TODO
+
+- [X] Generate a basic proof of concept
+- [ ] Use a string to generate the identicon (ensuring the same result for future calls with said string)
+- [ ] Package this nicely
+- [ ] Document all the things
+- [ ] Demo site
 
 ## Installation
 
@@ -15,8 +21,17 @@ npm install --save identicon-svg
 ```javascript
 var identiconSvg = require('identicon-svg');
 
-identiconSvg();  // => true
+identiconSvg('johnotander@gmail.com');  // => "<svg />"
 ```
+
+### Options
+
+* `size` an integer representing the size of the desired identicon svg, default: `120`
+* `colors` an array of possible colors for the identicon svg, default: any
+
+### Development
+
+`npm run build && npm run open`
 
 ## Acknowledgements
 
