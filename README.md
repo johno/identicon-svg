@@ -9,6 +9,7 @@ Generate svg identicons
 - [ ] Package this nicely
 - [ ] Document all the things
 - [ ] Demo site
+- [ ] Tests
 
 ## Installation
 
