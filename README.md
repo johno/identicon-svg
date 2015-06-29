@@ -18,6 +18,10 @@ var identiconSvg = require('identicon-svg');
 identiconSvg();  // => true
 ```
 
+## Acknowledgements
+
+Couldn't have been done with the awesome [React Icons article](http://jxnblk.com/react-icons/) by [@jxnblk](https://twitter.com/jxnblk)
+
 ## License
 
 MIT
