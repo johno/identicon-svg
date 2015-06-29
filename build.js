@@ -3,7 +3,7 @@ var React = require('react')
 var Identicon = require('./Identicon')
 
 var build = function(name, props) {
-  props.size = props.size || 64
+  props.size = props.size || 240
   var size = props.size
   var viewBox = [0, 0, size, size].join(' ')
 

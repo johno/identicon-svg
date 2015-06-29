@@ -3,7 +3,7 @@ var React = require('react')
 var Identicon = React.createClass({
   getDefaultProps: function() {
     return {
-      size: 64,
+      size: 60,
       fill: 'currentcolor'
     }
   },
